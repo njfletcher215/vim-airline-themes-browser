@@ -4,11 +4,16 @@ vim-airline-themes-browser is a supplementary plugin for [vim-airline-themes](ht
 ## Installation
 Use your favorite plugin manager to install
 I recommend using [vim-plug](https://github.com/junegunn/vim-plug):
-`plug 'njfletcher215/vim-airline-themes-browser'`
+```
+plug 'njfletcher215/vim-airline-themes-browser'
+```
 
 ## Usage
-Use ':BrowseAirlineThemes' or ':AirlineThemes' to open the theme browser window.
+Use ':BrowseAirlineThemes' or ':AirlineThemes' to open the theme browser window.<br/>
 While in the theme browser window, press <Enter> to select a theme, 'a' to apply a theme without closing the window, or 'q' to close the window without applying a theme.
-Press '?' for help.
+Press '?' for help.<br/>
+<br/>
 **NOTE**: the theme will not persist after closing the window. If you want to permanently change the theme, add the following line to your .vimrc:
-`let g:airline_theme = '<theme_name>'`
+```
+let g:airline_theme = '<theme_name>'
+```
