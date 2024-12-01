@@ -13,7 +13,7 @@ Use ':BrowseAirlineThemes' or ':AirlineThemes' to open the theme browser window.
 While in the theme browser window, press <Enter> to select a theme, 'a' to apply a theme without closing the window, or 'q' to close the window without applying a theme.
 Press '?' for help.<br/>
 <br/>
-**NOTE**: the theme will not persist after closing the window. If you want to permanently change the theme, add the following line to your .vimrc:
+**NOTE**: the theme will not persist after exiting vim. If you want to permanently change the theme, add the following line to your .vimrc:
 ```
 let g:airline_theme = '<theme_name>'
 ```
